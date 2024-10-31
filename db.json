@@ -1,0 +1,90 @@
+{
+  "seller": [
+    {
+      "id": "ebbc",
+      "name": "Ankit Gupta ",
+      "email": "ankitguptaji68@gmail.com",
+      "password": "12345"
+    }
+  ],
+  "products": [
+    {
+      "id": "4ff4",
+      "name": "samsung s24",
+      "price": "80000",
+      "color": "black",
+      "category": "smart phone",
+      "description": "samsung galaxy s24 ",
+      "image": "https://i0.wp.com/www.93mobiles.com/wp-content/uploads/2024/07/71r4P34FuL._SL1500_.jpg?fit=1500%2C1500&ssl=1"
+    },
+    {
+      "id": "ef7e",
+      "name": "iphone 15",
+      "price": "145000",
+      "color": "pink",
+      "category": "smart phone",
+      "description": "apple product",
+      "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTN6SyU91eefPsd0TatM65Fj3Y3YlMd1qt_RXET_R31VuUojNJrntXJqavMMZShnwLa8ezz86LQzy0MAKtyHl-bBlAgLWkbyI1hTDJv_-efw4ubyrHln0qwZNs"
+    },
+    {
+      "id": "6d14",
+      "name": "samsung s24 ultra",
+      "price": "170000",
+      "color": "gray",
+      "category": "smart phone",
+      "description": "samsung smart phone ",
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSb8VA2wLnjTySDlGyVkPV8UVaMTP5egkLWIRSciRFK2V9dPgN9YwiwwRv16L9EVG8Oodwz9zcbfb1fst1BmRUa08wI4LdSFaxq_NEzgprIz2K-HTvCdfhkvg"
+    },
+    {
+      "id": "a056",
+      "name": "iphone 14",
+      "price": "100000",
+      "color": "white",
+      "category": "mobiles",
+      "description": "brand new iphone",
+      "image": "https://www.imagineonline.store/cdn/shop/files/iPhone_15_Blue_PDP_Image_Position-1__en-IN.jpg?v=1694605184"
+    },
+    {
+      "id": "c876",
+      "name": "HP EliteBook 845 35.6 cm (14) G10 Business Laptop, Silver",
+      "price": "112999",
+      "color": "silver",
+      "category": "Laptop",
+      "description": "AMD Ryzen™ 7 PRO processor\nWindows 11 Pro\n35.6 cm (14) diagonal WUXGA display with AMD Radeon™ Graphics\n16 GB DDR5 RAM\n512 GB SSD Solid State Drive\nHP Wolf Security, B&O Speakers, Fingerprint Sensor, Spill-Resistant & Backlit Keyboard",
+      "image": "https://in-media.apjonlinecdn.com/catalog/product/cache/b3b166914d87ce343d4dc5ec5117b502/c/0/c08600472.png"
+    },
+    {
+      "id": "a27a",
+      "name": "Dell Inspiron 15 Laptop",
+      "price": "36990",
+      "color": "Carbon Black",
+      "category": "Laptop",
+      "description": "AMD Ryzen™ 5 7520U (262 MB total cache, 4 cores) with Radeon™ Graphics\nOperating System\nWindows 11 Home Single Language, English",
+      "image": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/inspiron-notebooks/15-3535-amd/media-gallery/black/notebook-inspiron-15-3535-nt-plastic-black-gallery-5.psd?fmt=png-alpha&pscan=auto&scl=1&hei=402&wid=656&qlt=100,1&resMode=sharp2&size=656,402&chrss=full"
+    }
+  ],
+  "user": [
+    {
+      "id": "5ce1",
+      "name": "Ankit Gupta ",
+      "email": "ankitguptaji68@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": "ac74",
+      "name": "Henry",
+      "email": "henry@henry.com",
+      "password": "12345"
+    }
+  ],
+  "cart": [],
+  "orders": [
+    {
+      "id": "90b4",
+      "address": "fatehpur",
+      "contect": 554,
+      "totalPrice": 86420,
+      "userId": "5ce1"
+    }
+  ]
+}

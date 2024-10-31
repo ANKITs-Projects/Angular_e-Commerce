@@ -1,0 +1,31 @@
+<div class="nav">
+  <h1><a routerLink="">ShopNow</a></h1>
+  <div *ngIf="menuType!=='seller'" class="nav-search">
+    <input type="text" placeholder="Search" />
+    <button>Search</button>
+  </div>
+  <div class="ul-li-a" [ngSwitch]="menuType">
+    <ul *ngSwitchCase="'default'">
+      <li><a routerLink="">Home</a></li>
+      <li><a routerLink="/seller-auth">Seller</a></li>
+      <li><a routerLink="user-auth">Login/SignUp</a></li>
+      <li><a href="#">Cart({{cartItems}})</a></li>
+    </ul>
+    <ul *ngSwitchCase="'user'">
+      <li><a routerLink="">Home</a></li>
+      <li><a routerLink="/seller-auth">Seller</a></li>
+      <li><a routerLink="user-auth">{{userName | titlecase}}</a></li>
+      <li><a (click)="userLogOut()">LogOut</a></li>
+      <li><a [routerLink]="cartItems>0?'cart-page':null">Cart({{cartItems}})</a></li>
+      <li><a routerLink="myorder">MyOrder</a></li>
+    </ul>
+    <ul *ngSwitchCase="'seller'">
+      <li><a routerLink="seller-add-product">Add Product</a></li>
+      <li><a routerLink="seller-home">Product List</a></li>
+      <li><a (click)="logOut()">Logout</a></li>
+      <li><a >{{sellerName | titlecase}}</a></li>
+    </ul>
+    
+
+  </div>
+</div>

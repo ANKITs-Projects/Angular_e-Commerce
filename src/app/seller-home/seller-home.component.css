@@ -1,0 +1,25 @@
+.table{
+    text-align: left;
+    color: blueviolet;
+    border-collapse: collapse;
+}
+ table td, table th{
+    border: 1px solid blueviolet;
+    padding: 10px;
+    min-width: 160px;
+}
+table td img{
+    width: 100px;
+    height: 100px;
+}
+.deleteProdMessage{
+    color: green;
+    text-align: left;
+    font: bold;
+    font-size: 25px;
+}
+.myIcon{
+    cursor: pointer;
+    color: black;
+    margin-left: 25px;
+}

@@ -1,0 +1,27 @@
+<div class="user-auth" [ngSwitch]="openForm">
+    <div class="user-signUp" *ngSwitchCase="'SignUp'">
+        <h1>User ShignUp</h1>
+        <form #userSignUp="ngForm" class="common-form" (ngSubmit)="signUp(userSignUp.value)">
+            <input class="form-input" type="text" placeholder="Enter Name" name="name" ngModel #name="ngModel" required>
+            <span id="input-Validation" *ngIf="name.invalid&& name.touched">*Enter valied name</span>
+            <input class="form-input" type="email" placeholder="Enter email" name="email" ngModel  #email="ngModel" required>
+            <span id="input-Validation" *ngIf="email.invalid&& email.touched">*Enter valied email</span>
+            <input class="form-input" type="password" placeholder="Enter password" name="password" ngModel #password="ngModel" required>
+            <span id="input-Validation" *ngIf="password.invalid&& password.touched">*Enter password</span>
+            <button class="form-button" [disabled]="userSignUp.invalid">SignUp</button>
+            <p>Already Have Account ? <a (click)="openSignIn()">SignIn</a></p>
+        </form>
+    </div>
+    <div class="user-login" *ngSwitchCase="'SignIn'">
+        <h1>User ShignIn</h1>
+        <form #userSignIn="ngForm" class="common-form" (ngSubmit)="signIn(userSignIn.value)">
+            <p id="signIn-validation">{{userValidation}}</p>
+            <input class="form-input" type="email" placeholder="Enter email" name="email" ngModel #email="ngModel" required>
+            <span id="input-Validation" *ngIf="email.invalid&& email.touched">*Enter valied email</span>
+            <input class="form-input" type="password" placeholder="Enter password" name="password" ngModel #password="ngModel" required>
+            <span id="input-Validation" *ngIf="password.invalid&& password.touched">*Enter password</span>
+            <button class="form-button" [disabled]="userSignIn.invalid">SignIn</button>
+            <p>Don't Have Account ? <a (click)="openSignUp()">SignUp</a></p>
+        </form>
+    </div>
+</div>

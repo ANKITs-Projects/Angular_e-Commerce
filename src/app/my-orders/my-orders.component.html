@@ -1,0 +1,40 @@
+<div class="myOrder">
+    <h1>My Orders</h1>
+    <div class="orderSummery">
+        <div class="row hedderSection">
+            <div class="col-sm-2">
+                <h6>Orders</h6>
+            </div>
+            <div class="col-sm-2">
+                <h6>Order Id</h6>
+            </div>
+            <div class="col-sm-2">
+                <h6>Price</h6>
+            </div>
+            <div class="col-sm-2">
+                <h6>Status</h6>
+            </div>
+            <div class="col-sm-2">
+               <h6>Action</h6>
+            </div>
+        </div>
+        <div class="row orderData" *ngFor="let prod of orderData ">
+            <div class="col-sm-2">
+                <img class="order-img" src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTN6SyU91eefPsd0TatM65Fj3Y3YlMd1qt_RXET_R31VuUojNJrntXJqavMMZShnwLa8ezz86LQzy0MAKtyHl-bBlAgLWkbyI1hTDJv_-efw4ubyrHln0qwZNs" alt="">
+            </div>
+            <div class="col-sm-2">
+                <span>#{{prod.id}}</span>
+            </div>
+            <div class="col-sm-2">
+                <span>{{prod.totalPrice}}</span>
+            </div>
+            <div class="col-sm-2">
+                <span>Status</span>
+            </div>
+            <div class="col-sm-2">
+                <button class="form-button" (click)="cancleOrder(prod.id)">Cancel Order</button>
+            </div>
+        </div>
+    </div>
+
+</div>

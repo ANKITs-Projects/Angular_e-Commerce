@@ -1,0 +1,59 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.nav h1{
+
+    color: blueviolet;
+    margin: 0;
+    font-size: 35px;
+}
+.nav ul{
+    display: inline-flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav li{
+    padding-left: 15px;
+    padding-top: 15px;
+}
+.nav li a{
+    text-decoration: none;
+    color: #000000;
+}
+.ul-li-a{
+    cursor: pointer;
+}
+.nav .nav-search{
+    flex: 1;
+    display: flex;
+    margin: 5px 5% 0 5%;
+}
+.nav .nav-search input{
+    flex: 1;
+    color: gray;
+    font-size: 1.1em;
+    border: 1px solid black;
+    border-right: 0px;
+    height: 40px;
+}
+.nav .nav-search button{
+    background-color: rgba(0, 0, 0, 0.795);
+    color: beige;
+    font-weight: bold;
+    font-size: 1em;
+    text-transform: capitalize;
+    border: 1px solid black;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 100px;
+    height: 39.5px;
+    cursor: pointer;
+}
+.nav h1 a{
+    color: blueviolet;
+    text-decoration: none;
+}
+

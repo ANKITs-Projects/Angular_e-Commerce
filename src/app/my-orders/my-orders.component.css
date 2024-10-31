@@ -1,0 +1,23 @@
+.myOrder{
+    text-align: center;
+    justify-content:last baseline;
+    
+}
+.myOrder h1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.myOrder .order-img{
+    width: 100px;
+}
+
+.orderSummery .hedderSection{
+    margin-bottom: 30px;
+    border-bottom: 3px solid black;
+    
+}
+.orderData{
+    margin-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #ddd;
+}

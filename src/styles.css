@@ -1,1 +1,59 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body{
+    font-family: "Montserrat", system-ui;
+}
+.container{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.common-form{
+    text-align: center;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    width: 20em;
+}
+.form-input{
+    height: 3em;
+    margin-bottom: 1.9em;
+    padding-left: 1.1em;
+    border: 2px solid black;
+    color: gray;
+}
+.form-button{
+    height: 3em;
+    border: 2px solid black;
+    cursor: pointer;
+}
+.carousel-caption{
+    background-color: rgba(0, 0, 0, 0.463);
+    border-radius: 5px;
+    color: rgb(253, 253, 253);
+}
+
+
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    background-color: black;
+    border-radius: 5px;
+    height: 100px;
+}
+#input-Validation{
+    color: red;
+    font-size: 14px;
+    margin-top: -2.3em;
+    margin-bottom: .8em;
+    text-align: left;
+    
+}
+button:disabled{
+    cursor: not-allowed;
+}
+#signIn-validation{
+    text-align: left;
+    color: red;
+    font-size: 15px;
+    
+}
